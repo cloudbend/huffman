@@ -1,0 +1,18 @@
+{
+    "name": "Rust",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.12-bullseye",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "github.copilot",
+                "github.vscode-github-actions",
+                "redhat.vscode-yaml",
+                "esbenp.prettier-vscode"
+            ]
+        }
+    },
+    "remoteUser": "vscode",
+    "features": {
+        "ghcr.io/devcontainers/features/rust:1": {}
+    }
+}
